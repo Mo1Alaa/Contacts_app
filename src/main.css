@@ -1,0 +1,94 @@
+/* Mobile styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .app {
+	max-width: 400px;
+	margin: 20px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 20px;
+  }
+  
+  .create-contact,
+  .contact-list,
+  .contact-details {
+	margin-bottom: 20px;
+  }
+  
+  .contact-list .list {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	overflow: hidden;
+  }
+  
+  .contact-list .list div {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+  }
+  
+  .contact-list .list div:last-child {
+	border-bottom: none;
+  }
+  
+  .contact-details {
+	background-color: #f9f9f9;
+	padding: 10px;
+  }
+  
+  .contact-details div {
+	margin-bottom: 5px;
+  }
+  
+  .contact-details img {
+	display: block;
+	margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="file"],
+  button[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #0056b3;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 480px) {
+	.app {
+	  width: 90%;
+	  padding: 15px;
+	}
+  }
+  
